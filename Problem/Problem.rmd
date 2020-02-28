@@ -25,7 +25,7 @@ $H_A$ : There is a difference in the average years of education between those wh
 plot(EDUC~VOTE12,data=Ourdata)
 ```
 
-It appears that the average number of years of education is about the same with both groups.
+It appears that the average number of years of education is not the same with both groups.
 
 
 
@@ -35,3 +35,14 @@ It appears that the average number of years of education is about the same with 
 favstats(EDUC~VOTE12,data=Ourdata)
 ```
 
+
+
+## Inferential Test 
+
+```{r}
+t.test(EDUC~VOTE12,data=Ourdata)
+```
+
+## Conclusions
+
+The P value from the t-tests is 0.005, this is less than 0.05, so we reject the null hypothesis and conclude we have evidence that there is a difference betwen the average years of education for those who voted in 2012 and those who did not vote in 2012.
