@@ -45,4 +45,4 @@ t.test(EDUC~VOTE12,data=Ourdata)
 
 ## Conclusions
 
-The P value from the t-tests is 0.005, this is less than 0.05, so we reject the null hypothesis and conclude we have evidence that there is a difference betwen the average years of education for those who voted in 2012 and those who did not vote in 2012.
+The P value from the t-tests is 0.005, this is less than 0.05, so we reject the null hypothesis and conclude we have evidence that there is a difference betwen the average years of education for those who voted in 2012 and those who did not vote in 2012.  
